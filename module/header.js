@@ -1,7 +1,7 @@
 var header = $('.header')[0]
 var bg = new Image();
-bg.src = "../src/imgs/1.jpg";
-// console.log(bg.width, bg.height);
+bg.src = "../blog/src/imgs/1.jpg";
+console.log(bg.width, bg.height);
 // header.style.height = bg.width / document.body.clientWidth * bg.height/5 + 'px';
 header.style.height = document.documentElement.clientHeight * 0.3 + 'px';
 var timer1 = null
