@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["others"],{"6f7b":function(e,n,t){"use strict";t.r(n);var l=function(){var e=this,n=e.$createElement,t=e._self._c||n;return t("div")},r=[],s={},u=s,c=t("2877"),o=Object(c["a"])(u,l,r,!1,null,null,null);n["default"]=o.exports}}]);
-//# sourceMappingURL=others.dac7bf36.js.map
