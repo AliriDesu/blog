@@ -1,0 +1,21 @@
+html {
+    font-size: 62.5%;
+    /* 取默认字体的百分比 */
+    min-width: 480px;
+}
+
+@media (min-width: 480px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 992px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+body {
+    overflow-x: hidden;
+}
