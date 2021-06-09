@@ -1,6 +1,6 @@
 var header = $('.header')[0]
 var bg = new Image();
-bg.src = "../blog/src/imgs/1.jpg";
+bg.src = "../blog/src/imgs/2.jpg";
 console.log(bg.width, bg.height);
 // header.style.height = bg.width / document.body.clientWidth * bg.height/5 + 'px';
 header.style.height = document.documentElement.clientHeight * 0.3 + 'px';
