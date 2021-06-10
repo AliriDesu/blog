@@ -1,0 +1,10 @@
+@import url(./home.css);
+@import url(./article.css);
+@import url(./about.css);
+@import url(./project.css);
+
+.main {
+    background-color: #008c8c;
+    height: 1900px;
+
+}

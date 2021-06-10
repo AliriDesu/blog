@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="./css//index.css">
     <!-- <link rel="stylesheet" href="./css/reset.css"> -->
     <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/menus.css">
+    <link rel="stylesheet" href="./css/main.css">
     <title>啊哩哩的主页</title>
 </head>
 
@@ -21,51 +23,109 @@
                     BLOG
                 </div>
             </header>
+
         </div>
-        <div class="row">
-            <div class="aside col-4">
-                <a href="/">
-                    <div class="w-100 menu">
-                        <div class='cover cover1  d-flex align-items-center  justify-content-center'>
-                            <span class=" w-100">
+        <div class="row menus sticky-top">
+            <div class="col-3 menus">
+                <a href="/#home">
+                    <div class="menu">
+                        <div class='cover cover1 d-flex align-items-center'>
+                            <span class=" w-100 ">
                                 主页
                             </span>
                         </div>
-                        <img src="./src/imgs/menu/1.jpg" alt="">
+                        <img src="./src/imgs/menu/1.jpg" alt="" class=".img-fluid">
                     </div>
-                </a><a href="#/article">
-                    <div class="w-100 menu">
-                        <div class='cover cover2 d-flex align-items-center  justify-content-center'>
-                            <span class=" w-100">
+                </a>
+            </div>
+            <div class="col-3 menus">
+                <a href="#article">
+                    <div class="menu">
+                        <div class='cover cover2 d-flex align-items-center'>
+                            <span class=" w-100 ">
                                 文章
                             </span>
                         </div>
-                        <img src="./src/imgs/menu/2.jpg" alt="">
+                        <img src="./src/imgs/menu/2.jpg" alt="" class=".img-fluid">
                     </div>
-                </a><a href="#/project">
-                    <div class="w-100 menu">
-                        <div class='cover cover3 d-flex align-items-center  justify-content-center'>
-                            <span class=" w-100">
-                                项目
-                            </span>
-                        </div>
-                        <img src="./src/imgs/menu/3.jpg" alt="">
-                    </div>
-                </a><a href="#/about">
-                    <div class="w-100 menu">
-                        <div class='cover cover4 d-flex align-items-center  justify-content-center'>
-                            <span class=" w-100">
+                </a>
+            </div>
+            <div class="col-3 menus">
+                <a href="#about">
+                    <div class="menu">
+                        <div class='cover cover3 d-flex align-items-center'>
+                            <span class=" w-100 ">
                                 关于
                             </span>
                         </div>
-                        <img src="./src/imgs/menu/4.jpg" alt="">
+                        <img src="./src/imgs/menu/3.jpg" alt="" class=".img-fluid">
                     </div>
                 </a>
-
-
             </div>
-            <div class="main col-8"></div>
+            <div class="col-3 menus">
+                <a href="#project">
+                    <div class="menu">
+                        <div class='cover cover4 d-flex align-items-center'>
+                            <span class=" w-100 ">
+                                项目
+                            </span>
+                        </div>
+                        <img src="./src/imgs/menu/4.jpg" alt="" class=".img-fluid">
+                    </div>
+                </a>
+            </div>
+
         </div>
+        <div class="row main">
+            <div class="col-12 m-0  p-0" id="home">
+                <div class=" title p-2  d-flex justify-content-center align-items-center">这是主页</div>
+                <div id="carouselExampleIndicators" class="carousel slide col-6 p-0 m-auto" data-ride="carousel"
+                    data-interval='2000'>
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active ">
+                            <img src="./src/imgs/1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./src/imgs/2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item ">
+                            <img src="./src/imgs/3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item ">
+                            <img src="./src/imgs/4.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item ">
+                            <img src="./src/imgs/5.jpg" class="d-block w-100" alt="...">
+                        </div>
+
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 m-0 p-0" id="article">
+                <div class="w-100 title">这是文章页</div>
+                <div class=" lists">
+                    <div class="accordion" id="accordion">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 
 
@@ -79,8 +139,3 @@
 </body>
 
 </html>
-<!-- adsad
-m 0---w(clientWidth) 0---h(0.3h)
-bg 0--- -0.2w          0---1.2h
-
--->

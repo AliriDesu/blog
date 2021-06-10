@@ -1,9 +1,10 @@
 var header = $('.header')[0]
+// var bg = new Image();
+// bg.src = require("../blog/src/imgs/1.jpg");
 // console.log(bg.width, bg.height);
 // header.style.height = bg.width / document.body.clientWidth * bg.height/5 + 'px';
 header.style.height = document.documentElement.clientHeight * 0.3 + 'px';
 var timer1 = null
-
 
 header.onmouseenter = function (e) {
     header.style.transition = ' all 0.3s';
@@ -28,7 +29,7 @@ header.onmouseleave = function () {
 
 }
 window.onresize = function () {
-    header.style.backgroundPositionX = 'center';
+    // header.style.backgroundPositionX = 'center';
     // console.log(getComputedStyle(header.children[0]).fontSize);
-    console.log(getComputedStyle(header.children[0]).fontSize);
+    // console.log(getComputedStyle(header.children[0]).fontSize);
 }
