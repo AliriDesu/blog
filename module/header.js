@@ -1,7 +1,13 @@
 var header = $('.header')[0]
+<<<<<<< HEAD
 // var bg = new Image();
 // bg.src = require("../blog/src/imgs/1.jpg");
 // console.log(bg.width, bg.height);
+=======
+var bg = new Image();
+bg.src = "../blog/src/imgs/1.jpg";
+console.log(bg.width, bg.height);
+>>>>>>> 184eb5eee6c5fefdd84416cd5046dec640210791
 // header.style.height = bg.width / document.body.clientWidth * bg.height/5 + 'px';
 header.style.height = document.documentElement.clientHeight * 0.3 + 'px';
 var timer1 = null
@@ -32,4 +38,9 @@ window.onresize = function () {
     // header.style.backgroundPositionX = 'center';
     // console.log(getComputedStyle(header.children[0]).fontSize);
     // console.log(getComputedStyle(header.children[0]).fontSize);
+<<<<<<< HEAD
 }
+=======
+    console.log(getComputedStyle(header.children[0]).fontSize);
+}
+>>>>>>> 184eb5eee6c5fefdd84416cd5046dec640210791
